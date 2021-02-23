@@ -7,7 +7,7 @@ public class Main {
         System.out.printf("%.2f",mean(array));
     }
 
-    public static double mean(double array[]) {
+    public static double mean(double[] array) {
         double osszeg = 0;
         for (int i = 0; i < array.length; i++) {
             osszeg += array[i];
