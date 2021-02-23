@@ -8,6 +8,10 @@ public class Main {
     }
 
     public static double mean(double[] array) {
+        if(array.length == 0)
+        {
+            return Double.NaN;
+        }
         double osszeg = 0;
         for (int i = 0; i < array.length; i++) {
             osszeg += array[i];
