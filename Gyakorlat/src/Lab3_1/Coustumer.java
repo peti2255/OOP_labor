@@ -33,7 +33,10 @@ public class Coustumer {
 
     public void closeAccount ()
     {
-        return ;
+        if(this.account !=null)
+        {
+            this.account = null;
+        }
     }
 
     @Override
