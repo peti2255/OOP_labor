@@ -51,22 +51,30 @@ public class Coustumer {
         this.lastName = lastName;
     }
 
-    public void closeAccount ()
+    public void closeAccount (String accountNumber)
     {
-        for (BankAccount account  : this.account)
-        {
-//            if(account.getAccountNumber() == accountNumber)
-//            {
-//                return account;
-//            }
-        }
+       for (int i = 0;i < numAccounts; i++)
+       {
+           if(this.account[i].getAccountNumber().equals(accountNumber))
+           {
+               this.account[i] = null;
+               for (int j=i;j < numAccounts-1; ++j)
+               {
+                   this.account[j]  = this.account[j+1];
+               }
+               numAccounts--;
+               return;
+           }
+
+
+       }
     }
 
     @Override
     public String toString() {
         StringBuffer result = new StringBuffer();
         result.append(firstName + ' ' + lastName + " accounts:\n");
-        for(int i=0; i<numAccounts; ++i){
+        for(int i=0; i < numAccounts; ++i){
             result.append( "\t" + account[i].toString() +"\n");
         }
         return result.toString();
