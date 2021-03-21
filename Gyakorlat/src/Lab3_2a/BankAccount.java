@@ -32,6 +32,7 @@ public class BankAccount {
     //Bank account :......with......RON balance
     @Override
     public String toString() {
-        return "Bank account: " + this.AccountNumber + "....."  + this.balance+" RON balance";
+        return "Bank account: " + this.AccountNumber +
+                "....."  + this.balance+" RON balance \n";
     }
 }

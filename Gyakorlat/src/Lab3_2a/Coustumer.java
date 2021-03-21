@@ -7,7 +7,7 @@ public class Coustumer {
         private String firstName;
         private String lastName;
         public static final int MAX_ACCOUNTS = 10;
-        private ArrayList<BankAccount> account = new ArrayList<BankAccount>();
+        private ArrayList<BankAccount> account = new ArrayList<>();
 
         public Coustumer(String firstName, String lastName) {
             this.firstName = firstName;
@@ -24,8 +24,7 @@ public class Coustumer {
         public void addAccount(BankAccount account) {
             if(this.account.size() < MAX_ACCOUNTS)
             {
-                this.account[numAccounts] = account;
-                this.numAccounts++;
+                this.account.add(account);
             }
         }
         public BankAccount getAccount(String accountNumber) {
@@ -48,22 +47,17 @@ public class Coustumer {
 
         public void closeAccount (String accountNumber)
         {
-            for (BankAccount account  : this.account)
+            for (int i = 0;i < account.size(); i++)
             {
-                if(account.getAccountNumber() == accountNumber)
-                {
-                    return account = ;
-                }
+                this.account.remove(i);
             }
         }
 
         @Override
         public String toString() {
             StringBuffer result = new StringBuffer();
-            result.append(firstName + ' ' + lastName + " accounts:\n");
-            for(int i=0; i < numAccounts; ++i){
-                result.append( "\t" + account[i].toString() +"\n");
-            }
+            result.append(this.firstName + ' ' + this.lastName + " accounts:\n");
+            result.append(this.account.toString());
             return result.toString();
         }
 }
