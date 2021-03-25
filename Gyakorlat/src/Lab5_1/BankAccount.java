@@ -5,11 +5,23 @@ public class BankAccount {
     private final String AccountNumber;
     private double balance;
     public static final String PREFIX = "OTP";
-    public static final int ACCOUNT_NUMBER_LENGTH = 5;
+    public static final int ACCOUNT_NUMBER_LENGTH = 8;
     private static int numAccount = 0;
 
-    public BankAccount(String accountNumber) {
-        AccountNumber = accountNumber;
+    public BankAccount() {
+        numAccount++;
+        AccountNumber = creatAccountNumber();
+    }
+
+    /**
+     * Generaljon, epites fel egy egyedi szamlaszamot
+     * @return egy egyedi bankszamla szam
+     */
+    private String creatAccountNumber() {
+        //PREFIX, ACCOUNT_LENGHT, numACCOUNT
+        //PREFIC......numAccount
+        return BankAccount.PREFIX + "0".repeat(ACCOUNT_NUMBER_LENGTH - PREFIX.length() - String.valueOf(numAccount).length()) + numAccount;
+
     }
 
     public String getAccountNumber() {
@@ -32,14 +44,6 @@ public class BankAccount {
         }
         return false;
     }
-
-//    private static String creatAccountNumber()
-//    {
-//        for(int i=0 ;i<ACCOUNT_NUMBER_LENGTH;i++)
-//        {
-//
-//        }
-//    }
 
     //Bank account :......with......RON balance
     @Override
