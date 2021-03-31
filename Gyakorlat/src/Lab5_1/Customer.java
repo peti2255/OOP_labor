@@ -3,7 +3,7 @@ package Lab5_1;
 
 import java.util.ArrayList;
 
-public class Coustumer {
+public class Customer {
 
     private static int numCustomers = 0;
     private final int id;
@@ -12,7 +12,7 @@ public class Coustumer {
     public static final int MAX_ACCOUNTS = 10;
     private ArrayList<BankAccount> account = new ArrayList<>();
 
-    public Coustumer(String firstName, String lastName) {
+    public Customer(String firstName, String lastName) {
         this.firstName = firstName;
         this.lastName = lastName;
         numCustomers++;
@@ -25,6 +25,8 @@ public class Coustumer {
     public String getLastName() {
         return lastName;
     }
+
+    public int getId(){return id;}
 
     public void addAccount(BankAccount account) {
         if(this.account.size() < MAX_ACCOUNTS)
@@ -44,8 +46,6 @@ public class Coustumer {
         return null;
     }
 
-
-
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
@@ -56,6 +56,16 @@ public class Coustumer {
         {
             this.account.remove(i);
         }
+    }
+
+    public ArrayList <String> getAccountNumber()
+    {
+        ArrayList<String> accountnumb = new ArrayList<>();
+        for (BankAccount b : this.account)
+        {
+            accountnumb.add(b.getAccountNumber());
+        }
+        return accountnumb;
     }
 
     @Override
