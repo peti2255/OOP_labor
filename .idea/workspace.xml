@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a276d8bc-653a-435e-b08f-595df2a1cee3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Labor 1/FirstProject/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labor 1/FirstProject/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labor 1/FirstProject/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labor 1/FirstProject/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labor 1/FirstProject/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labor 1/FirstProject/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labor 1/FirstProject/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labor 1/FirstProject/FirstProject.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labor 1/FirstProject/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labor 1/Hazi feladat 1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labor 1/Hazi feladat 1/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labor 1/Hazi feladat 1/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labor 1/Hazi feladat 1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labor 1/Hazi feladat 1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labor 1/Hazi feladat 1/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labor 1/Hazi feladat 1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labor 1/Hazi feladat 1/Hazi feladat 1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labor 1/Hazi feladat 1/src/com/company/Main.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1rCUArcrgJUq2P1db6f1MMp2gHt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a276d8bc-653a-435e-b08f-595df2a1cee3" name="Default Changelist" comment="" />
+      <created>1618479437535</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618479437535</updated>
+    </task>
+    <servers />
+  </component>
+</project>
