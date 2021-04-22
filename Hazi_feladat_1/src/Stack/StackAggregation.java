@@ -22,11 +22,7 @@ public class StackAggregation {
     }
 
     public boolean isFull(){
-        if(items.size()==capacity-1){
-            return true;
-        }
-        return false;
-        //items.size() == capacity;
+        return items.size()==capacity;
     }
 
     public void pop(){
@@ -38,25 +34,25 @@ public class StackAggregation {
             items.add(item);
         }
         else{
-            System.out.println("A verem ures!");
+            System.out.println("A verem tele van");
         }
     }
 
-    public void push(ArrayList items, int item, int sp){
+    public void push(Object obj){
+
         if(!isFull()){
-            items.add(item);
+            items.add(obj);
+        }else {
+            System.out.println("A verem tele van");
         }
-        else{
-            System.out.println("A verem ures!");
-        }
-}
+    }
 
     public int getSize(){
         return this.items.size();
     }
 
     public boolean isEmpty(){
-        if(items.size()==capacity){
+        if(items.size()==0){
             return true;
         }
         return false;

@@ -13,17 +13,17 @@ public class Main {
             stack1.pop();
         }
         System.out.println();
-//        StackInheritance stack2 = new StackInheritance( 5 );
-//        for( int i=0; i<10; ++i ){
-//            stack2.push( i );
-//        }
-//        stack2.remove( 1 );
-//        System.out.print("StackInheritance : ");
-//        while( !stack2.isEmpty() ){
-//            System.out.print( stack2.top() + " ");
-//            stack2.pop();
-//        }
-//        System.out.println();
+        StackInheritance stack2 = new StackInheritance( 5 );
+        for( int i=0; i<10; ++i ){
+            stack2.push( i );
+        }
+        stack2.remove( 1 );
+        System.out.print("StackInheritance : ");
+        while( !stack2.isEmpty() ){
+            System.out.print( stack2.top() + " ");
+            stack2.pop();
+        }
+        System.out.println();
 
     }
 }
