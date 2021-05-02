@@ -23,8 +23,7 @@ public class Manager extends Employee{
     @Override
     public String toString() {
         StringBuffer buffer = new StringBuffer();
-        buffer.append("Manager").append("\n").
-                append(super.toString()).append("\n").
+        buffer.append(super.toString()).
                 append(this.department).append("\n");
         return buffer.toString();
     }
