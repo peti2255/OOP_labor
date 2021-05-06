@@ -7,10 +7,11 @@ import java.io.FileNotFoundException;
 import java.io.PrintStream;
 import java.lang.management.ManagementFactory;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.Scanner;
 
-public class Company {
+public class Company{
     private String name;
     private final ArrayList<Employee> employees;
 
@@ -85,6 +86,17 @@ public class Company {
             if(emp instanceof Manager)
             printStream.println(emp);
         }
+    }
+
+    public  void defaultRendezes()
+    {
+        Collections.sort(this.employees);
+    }
+
+    public void sortByComparator(Comparator<Employee> rendezesiMod)
+    {
+        Collections.sort(employees,rendezesiMod);
+
     }
 }
 
