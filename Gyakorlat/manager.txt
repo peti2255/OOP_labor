@@ -1,0 +1,14 @@
+ID: 1
+Incze
+Zsolt-Tamas
+3100.0
+2000-09-25
+WebDev
+
+ID: 9
+Burszan
+Hunor
+3500.0
+2000-05-03
+MobileDev
+
