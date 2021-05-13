@@ -11,6 +11,9 @@ public class Main {
 //        storage.ReadFromFileUpdate("update10.txt");
 //        storage1.ReadFromFileUpdate("update100.txt");
 //        storage2.ReadFromFileUpdate("update1000.txt");
+        long startTime = System.nanoTime();
         storage2.ReadFromFileUpdate("update1000000.txt");
+        long elapseTime = System.nanoTime() - startTime;
+        System.out.println("Ido :"+ elapseTime/100000);
     }
 }
